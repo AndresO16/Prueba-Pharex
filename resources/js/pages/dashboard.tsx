@@ -57,51 +57,51 @@ export default function Dashboard({ stats = {
                     <Card className="bg-gradient-to-br from-blue-500/10 to-blue-600/10 border-blue-500/20">
                         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                             <CardTitle className="text-sm font-medium text-blue-500">
-                                Total ists
+                                Total listas
                             </CardTitle>
                             <List className="h-4 w-4 text-blue-500" />
                         </CardHeader>
                         <CardContent>
                             <div className="text-2xl font-bold text-blue-500">{stats.totalLists}</div>
                             <p className="text-xs text-muted-foreground">
-                                Your task  ists
+                                Listas de tareas
                             </p>
                         </CardContent>
                     </Card>
                     <Card className="bg-gradient-to-br from-green-500/10 to-green-600/10 border-green-500/20">
                         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                             <CardTitle className="text-sm font-medium text-green-500">
-                                Total  asks
+                                Total  tareas
                             </CardTitle>
                             <CheckCircle className="h-4 w-4 text-green-500" />
                         </CardHeader>
                         <CardContent>
                             <div className="text-2xl font-bold text-green-500">{stats.totalTasks}</div>
                             <p className="text-xs text-muted-foreground">
-                                All your  asks
+                                Tareas
                             </p>
                         </CardContent>                    </Card>
                     <Card className="bg-gradient-to-br from-yellow-500/10 to-yellow-600/10 border-yellow-500/20">
                         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                             <CardTitle className="text-sm font-medium text-yellow-500">
-                                Pending  asks
+                                Tareas pendientes
                             </CardTitle>                            <Clock className="h-4 w-4 text-yellow-500" />
                         </CardHeader>                        <CardContent>
                             <div className="text-2xl font-bold text-yellow-500">{stats.pendingTasks}</div>
                             <p className="text-xs text-muted-foreground">
-                                Tasks to completed
+                                pendientes
                             </p>
                         </CardContent>
                     </Card>
                     <Card className="bg-gradient-to-br from-purple-500/10 to-purple-600/10 border-purple-500/20">
                         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                             <CardTitle className="text-sm font-medium text-purple-500">
-                                Completed  asks
+                                Tareas completas
                             </CardTitle>                            <AlertCircle className="h-4 w-4 text-purple-500" />
                         </CardHeader>                        <CardContent>
                             <div className="text-2xl font-bold text-purple-500">{stats.completedTasks}</div>
                             <p className="text-xs text-muted-foreground">
-                                asks DialogContent
+                                completas
                             </p>
                         </CardContent>
                     </Card>
